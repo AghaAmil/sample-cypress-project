@@ -1,5 +1,3 @@
-// cypress/integration/bookCart/search-filter.spec.js
-
 describe("BookCart Search and Filter Tests", () => {
     beforeEach(() => {
         // Visit the BookCart website
