@@ -43,6 +43,6 @@ describe("BookCart Search and Filter Tests", () => {
         cy.get("mat-slider[class*='m-0'] input[type='range']").invoke('val', 111).trigger('input').trigger('change')
 
         // Verify no results message
-        cy.get("div[class$='mb-3']").contains('No books found').should("be.visible");
+        cy.get("div[class$='mb-3']").contains('No books found.').should("be.visible");
     });
 });
