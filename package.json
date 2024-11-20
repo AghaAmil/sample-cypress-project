@@ -4,8 +4,7 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run",
-    "test": "cypress run --spec 'cypress/integration/bookCert/search-filter.spec.js'"
+    "cypress:run": "cypress run"
   },
   "author": "",
   "license": "ISC",
